@@ -1,4 +1,4 @@
-# Fennec AI - Professional AI Services Website
+# Fennec AI - Votre partenaire vers la transformation digitale
 
 A complete, production-ready website for Fennec AI services company with backend, admin panel, and all legal pages.
 
