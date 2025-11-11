@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { FaRocket, FaUsers, FaGlobeAmericas, FaLightbulb, FaHeart, FaShieldAlt } from 'react-icons/fa';
+import {  FaUsers,  FaLightbulb, FaHeart, FaShieldAlt } from 'react-icons/fa';
 
 const About = () => {
   const values = [
