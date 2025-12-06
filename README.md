@@ -1,6 +1,6 @@
-# Fennec AI - Professional AI Services Website
+# Anateck AI - Professional AI Services Website
 
-A complete, production-ready website for Fennec AI services company with backend, admin panel, and all legal pages.
+A complete, production-ready website for Anateck AI services company with backend, admin panel, and all legal pages.
 
 ## 🌟 Features
 
@@ -57,7 +57,7 @@ A complete, production-ready website for Fennec AI services company with backend
 ### 1. Clone or Extract the Project
 
 ```bash
-cd fennec-ai-website
+cd Anateck-ai-website
 ```
 
 ### 2. Backend Setup
@@ -187,19 +187,19 @@ Deploy both on Render's free tier:
 ```bash
 # Backend
 cd backend
-heroku create fennec-api
+heroku create Anateck-api
 git subtree push --prefix backend heroku main
 
 # Frontend
 cd frontend
-heroku create fennec-website
+heroku create Anateck-website
 heroku buildpacks:set mars/create-react-app
 git subtree push --prefix frontend heroku main
 ```
 
 ## 🗄️ Database
 
-The SQLite database (`fennec.db`) is automatically created on first run.
+The SQLite database (`Anateck.db`) is automatically created on first run.
 
 For production, consider upgrading to:
 - PostgreSQL (free on Railway/Render)
@@ -266,12 +266,12 @@ Before deploying to production:
 ## 📞 Support
 
 For issues or questions:
-- Email: contact@fennec.ai
+- Email: contact@Anateck.ai
 - Create an issue in the repository
 
 ## 📄 License
 
-All rights reserved © 2025 Fennec AI
+All rights reserved © 2025 Anateck AI
 
 ## 🎉 Quick Start Commands
 
@@ -345,4 +345,4 @@ To change password:
 
 ---
 
-**Built with ❤️ for Fennec AI - Making AI Accessible to Everyone**
+**Built with ❤️ for Anateck AI - Making AI Accessible to Everyone**

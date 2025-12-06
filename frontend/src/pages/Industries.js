@@ -39,7 +39,7 @@ const Industries = () => {
   return (
     <>
       <Helmet>
-        <title>Industries We Serve | Fennec AI</title>
+        <title>Industries We Serve | Anateck AI</title>
       </Helmet>
 
       <section className="bg-gradient-to-br from-primary-900 to-primary-700 text-white pt-32 pb-20">

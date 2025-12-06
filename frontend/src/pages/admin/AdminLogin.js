@@ -17,7 +17,7 @@ const AdminLogin = () => {
 
     try {
       const response = await axios.post('http://localhost:5000/api/admin/login', credentials);
-      localStorage.setItem('fennec_admin_token', response.data.token);
+      localStorage.setItem('Anateck_admin_token', response.data.token);
       navigate('/admin/dashboard');
     } catch (error) {
       setError(error.response?.data?.error || 'Login failed');
@@ -29,14 +29,14 @@ const AdminLogin = () => {
   return (
     <>
       <Helmet>
-        <title>Admin Login | Fennec AI</title>
+        <title>Admin Login | Anateck AI</title>
       </Helmet>
 
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-900 to-primary-700 py-12 px-4">
         <div className="max-w-md w-full bg-white rounded-xl shadow-2xl p-8">
           <div className="text-center mb-8">
             <h1 className="text-3xl font-display font-bold text-dark-800 mb-2">Admin Login</h1>
-            <p className="text-dark-600">Fennec AI Dashboard</p>
+            <p className="text-dark-600">Anateck AI Dashboard</p>
           </div>
 
           {error && (

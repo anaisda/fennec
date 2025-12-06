@@ -1,6 +1,6 @@
 @echo off
 echo.
-echo 🚀 Fennec AI - Quick Start Script
+echo 🚀 Anateck AI - Quick Start Script
 echo ==================================
 echo.
 

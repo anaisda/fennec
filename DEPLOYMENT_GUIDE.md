@@ -1,4 +1,4 @@
-# Fennec AI - Complete Deployment Guide
+# Anateck AI - Complete Deployment Guide
 
 ## 🎯 Recommended: Vercel + Railway (100% FREE)
 
@@ -19,9 +19,9 @@ This combination provides:
    ```bash
    git init
    git add .
-   git commit -m "Initial commit - Fennec AI website"
+   git commit -m "Initial commit - Anateck AI website"
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/fennec-ai.git
+   git remote add origin https://github.com/YOUR_USERNAME/Anateck-ai.git
    git push -u origin main
    ```
 
@@ -34,7 +34,7 @@ This combination provides:
 
 2. **Deploy from GitHub**
    - Select "Deploy from GitHub repo"
-   - Choose your fennec-ai repository
+   - Choose your Anateck-ai repository
    - Railway will detect your project
 
 3. **Configure Backend Service**
@@ -60,7 +60,7 @@ This combination provides:
 
 5. **Deploy**
    - Railway will automatically build and deploy
-   - Copy your backend URL (e.g., `fennec-api.railway.app`)
+   - Copy your backend URL (e.g., `Anateck-api.railway.app`)
 
 ### Phase 3: Deploy Frontend (Vercel)
 
@@ -70,7 +70,7 @@ This combination provides:
    - Click "New Project"
 
 2. **Import Repository**
-   - Select your fennec-ai repository
+   - Select your Anateck-ai repository
    - Vercel will detect it's a React app
 
 3. **Configure Project**
@@ -118,7 +118,7 @@ Commit and push changes - Railway will auto-deploy.
 
 #### For Vercel (Frontend):
 1. Go to Project Settings → Domains
-2. Add your domain (e.g., `www.fennec.ai`)
+2. Add your domain (e.g., `www.Anateck.ai`)
 3. Follow DNS configuration instructions
 
 #### For Railway (Backend):
@@ -389,7 +389,7 @@ Consider React Native for mobile:
 
 ---
 
-**🎉 Congratulations! Your Fennec AI website is now live!**
+**🎉 Congratulations! Your Anateck AI website is now live!**
 
 Remember to:
 - Share your site URL

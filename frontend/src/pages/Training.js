@@ -34,7 +34,7 @@ const Training = () => {
   return (
     <>
       <Helmet>
-        <title>AI Training & Education Programs | Fennec AI</title>
+        <title>AI Training & Education Programs | Anateck AI</title>
       </Helmet>
 
       <section className="bg-gradient-to-br from-primary-900 to-primary-700 text-white pt-32 pb-20">

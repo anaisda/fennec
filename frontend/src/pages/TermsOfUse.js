@@ -5,8 +5,8 @@ const TermsOfUse = () => {
   return (
     <>
       <Helmet>
-        <title>Terms of Use | Fennec AI</title>
-        <meta name="description" content="Fennec AI Terms of Use - Terms and conditions for using our website and services." />
+        <title>Terms of Use | Anateck AI</title>
+        <meta name="description" content="Anateck AI Terms of Use - Terms and conditions for using our website and services." />
       </Helmet>
 
       <section className="pt-32 pb-20 bg-gray-50">
@@ -18,7 +18,7 @@ const TermsOfUse = () => {
             <section>
               <h2 className="text-2xl font-bold text-dark-800 mb-4">1. Acceptance of Terms</h2>
               <p className="text-dark-600 leading-relaxed">
-                By accessing and using the Fennec AI website and services, you accept and agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use our services.
+                By accessing and using the Anateck AI website and services, you accept and agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use our services.
               </p>
             </section>
 
@@ -37,7 +37,7 @@ const TermsOfUse = () => {
             <section>
               <h2 className="text-2xl font-bold text-dark-800 mb-4">3. Intellectual Property</h2>
               <p className="text-dark-600 leading-relaxed">
-                All content, features, and functionality on our website are owned by Fennec AI and are protected by international copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, or create derivative works without our express written permission.
+                All content, features, and functionality on our website are owned by Anateck AI and are protected by international copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, or create derivative works without our express written permission.
               </p>
             </section>
 
@@ -51,14 +51,14 @@ const TermsOfUse = () => {
             <section>
               <h2 className="text-2xl font-bold text-dark-800 mb-4">5. Limitation of Liability</h2>
               <p className="text-dark-600 leading-relaxed">
-                To the fullest extent permitted by law, Fennec AI shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of our services.
+                To the fullest extent permitted by law, Anateck AI shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of our services.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-dark-800 mb-4">6. Indemnification</h2>
               <p className="text-dark-600 leading-relaxed">
-                You agree to indemnify and hold harmless Fennec AI from any claims, damages, losses, liabilities, and expenses arising from your use of our services or violation of these Terms.
+                You agree to indemnify and hold harmless Anateck AI from any claims, damages, losses, liabilities, and expenses arising from your use of our services or violation of these Terms.
               </p>
             </section>
 
@@ -82,8 +82,8 @@ const TermsOfUse = () => {
                 For questions about these Terms of Use, please contact us at:
               </p>
               <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-                <p className="text-dark-700"><strong>Email:</strong> legal@fennec.ai</p>
-                <p className="text-dark-700"><strong>Website:</strong> www.fennec.ai</p>
+                <p className="text-dark-700"><strong>Email:</strong> legal@Anateck.ai</p>
+                <p className="text-dark-700"><strong>Website:</strong> www.Anateck.ai</p>
               </div>
             </section>
           </div>

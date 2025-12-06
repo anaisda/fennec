@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import axios from 'axios';
 import { FaUsers, FaEnvelope, FaBlog, FaSignOutAlt, FaChartBar } from 'react-icons/fa';
@@ -12,7 +12,7 @@ const AdminDashboard = () => {
   const navigate = useNavigate();
 
   const getAuthHeader = () => {
-    const token = localStorage.getItem('fennec_admin_token');
+    const token = localStorage.getItem('Anateck_admin_token');
     return { headers: { Authorization: `Bearer ${token}` } };
   };
 
@@ -39,7 +39,7 @@ const AdminDashboard = () => {
   }, [navigate]);
 
   const handleLogout = () => {
-    localStorage.removeItem('fennec_admin_token');
+    localStorage.removeItem('Anateck_admin_token');
     navigate('/admin/login');
   };
 
@@ -48,13 +48,13 @@ const AdminDashboard = () => {
   return (
     <>
       <Helmet>
-        <title>Admin Dashboard | Fennec AI</title>
+        <title>Admin Dashboard | Anateck AI</title>
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">
         <nav className="bg-primary-900 text-white p-4">
           <div className="section-container flex justify-between items-center">
-            <h1 className="text-xl font-bold">Fennec AI Admin</h1>
+            <h1 className="text-xl font-bold">Anateck AI Admin</h1>
             <button onClick={handleLogout} className="flex items-center hover:text-primary-200">
               <FaSignOutAlt className="mr-2" /> Logout
             </button>

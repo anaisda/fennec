@@ -1,11 +1,11 @@
-# 🎨 Fennec AI Website - Visual Features Guide
+# 🎨 Anateck AI Website - Visual Features Guide
 
 ## 🏠 Homepage
 
 ### Hero Section
 ```
 ┌─────────────────────────────────────────────────────┐
-│  [Fennec Logo]                    [ Nav Menu ]      │
+│  [Anateck Logo]                    [ Nav Menu ]      │
 ├─────────────────────────────────────────────────────┤
 │                                                     │
 │    Your Technical AI Partner for                   │
@@ -53,7 +53,7 @@
 **Desktop:**
 ```
 ┌──────────────────────────────────────────────────┐
-│ [F] Fennec   Home  Services▼ Industries Training │
+│ [F] Anateck   Home  Services▼ Industries Training │
 │               Case Studies  About  Blog  Contact │
 │                            [Get Started Button]  │
 └──────────────────────────────────────────────────┘
@@ -101,7 +101,7 @@
 │  Ready to start your AI journey?        │
 │                                         │
 │  [Email Icon]  Email                    │
-│                contact@fennec.ai        │
+│                contact@Anateck.ai        │
 │                                         │
 │  [Phone Icon]  Phone                    │
 │                +1 (234) 567-890         │
@@ -213,7 +213,7 @@
 ```
 ┌─────────────────────────────┐
 │     Admin Login             │
-│     Fennec AI Dashboard     │
+│     Anateck AI Dashboard     │
 │                             │
 │  [User Icon] Username       │
 │  [_____________________]    │
@@ -230,7 +230,7 @@
 ### Dashboard
 ```
 ┌─────────────────────────────────────────┐
-│ Fennec AI Admin            [Logout]     │
+│ Anateck AI Admin            [Logout]     │
 ├─────────────────────────────────────────┤
 │                                         │
 │  Dashboard Overview                     │
@@ -425,4 +425,4 @@ Neutral Colors:
 
 **Every pixel, every interaction, every feature has been carefully crafted to represent a professional AI services company.**
 
-**Your Fennec AI website is ready to launch! 🚀**
+**Your Anateck AI website is ready to launch! 🚀**

@@ -1,4 +1,4 @@
-# 🎉 START HERE - Your Complete Fennec AI Website
+# 🎉 START HERE - Your Complete Anateck AI Website
 
 ## 📦 What You Have
 
@@ -15,7 +15,7 @@ A **production-ready, professional AI services website** with:
 ## 🚀 QUICK START - 3 Steps
 
 ### Step 1: Extract the Project
-Extract this folder to your computer (e.g., `C:\Projects\fennec-ai-website`)
+Extract this folder to your computer (e.g., `C:\Projects\Anateck-ai-website`)
 
 ### Step 2: Install Dependencies
 
@@ -82,7 +82,7 @@ npm start
 ## 📁 Project Structure
 
 ```
-fennec-ai-website/
+Anateck-ai-website/
 ├── 📄 README.md                    # Main documentation
 ├── 📄 DEPLOYMENT_GUIDE.md          # FREE hosting guide
 ├── 📄 PROJECT_SUMMARY.md           # Features overview
@@ -172,7 +172,7 @@ fennec-ai-website/
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/YOUR_USERNAME/fennec-ai.git
+git remote add origin https://github.com/YOUR_USERNAME/Anateck-ai.git
 git push -u origin main
 ```
 
@@ -328,7 +328,7 @@ git push -u origin main
 ### Admin login not working
 - Default: username `admin`, password `Admin@123`
 - Check backend is running
-- Check database was created (`fennec.db`)
+- Check database was created (`Anateck.db`)
 
 ### More help in README.md
 
@@ -410,7 +410,7 @@ Just:
 
 ## 🚀 Let's Go!
 
-Your professional Fennec AI website is ready.
+Your professional Anateck AI website is ready.
 
 **Run the quick-start script and watch your website come to life!**
 

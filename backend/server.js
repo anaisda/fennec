@@ -17,10 +17,10 @@ try {
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const JWT_SECRET = process.env.JWT_SECRET || 'fennec-secret-key-change-in-production';
+const JWT_SECRET = process.env.JWT_SECRET || 'Anateck-secret-key-change-in-production';
 
 // Database setup
-const db = new Database('fennec.db');
+const db = new Database('Anateck.db');
 
 // Create tables
 db.exec(`
@@ -86,7 +86,7 @@ const adminExists = checkAdmin.get('admin');
 if (!adminExists) {
   const hashedPassword = bcrypt.hashSync('Admin@123', 10);
   const insertAdmin = db.prepare('INSERT INTO admins (username, password, email) VALUES (?, ?, ?)');
-  insertAdmin.run('admin', hashedPassword, 'admin@fennec.ai');
+  insertAdmin.run('admin', hashedPassword, 'admin@Anateck.ai');
   console.log('Default admin created - Username: admin, Password: Admin@123');
 }
 
@@ -168,10 +168,10 @@ app.post('/api/contact',
         try {
           await transporter.sendMail({
             from: process.env.SMTP_USER,
-            to: 'contact@fennec.ai',
+            to: 'contact@Anateck.ai',
             subject: 'New Contact Form Submission',
             html: `
-              <h2>New Contact from Fennec Website</h2>
+              <h2>New Contact from Anateck Website</h2>
               <p><strong>Name:</strong> ${name}</p>
               <p><strong>Email:</strong> ${email}</p>
               <p><strong>Phone:</strong> ${phone || 'N/A'}</p>
@@ -423,10 +423,10 @@ app.get('/api/admin/stats', authenticateToken, (req, res) => {
 
 // Health check
 app.get('/health', (req, res) => {
-  res.json({ status: 'OK', message: 'Fennec API is running' });
+  res.json({ status: 'OK', message: 'Anateck API is running' });
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 Fennec Backend Server running on port ${PORT}`);
+  console.log(`🚀 Anateck Backend Server running on port ${PORT}`);
   console.log(`📊 API available at http://localhost:${PORT}`);
 });

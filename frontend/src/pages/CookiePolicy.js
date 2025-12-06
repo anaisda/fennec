@@ -5,7 +5,7 @@ const CookiePolicy = () => {
   return (
     <>
       <Helmet>
-        <title>Cookie Policy | Fennec AI</title>
+        <title>Cookie Policy | Anateck AI</title>
       </Helmet>
 
       <section className="pt-32 pb-20 bg-gray-50">
@@ -72,7 +72,7 @@ const CookiePolicy = () => {
                 For questions about our use of cookies, contact us at:
               </p>
               <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-                <p className="text-dark-700"><strong>Email:</strong> privacy@fennec.ai</p>
+                <p className="text-dark-700"><strong>Email:</strong> privacy@Anateck.ai</p>
               </div>
             </section>
           </div>

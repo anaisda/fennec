@@ -5,8 +5,8 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | Fennec AI</title>
-        <meta name="description" content="Fennec AI Privacy Policy - How we collect, use, and protect your personal information." />
+        <title>Privacy Policy | Anateck AI</title>
+        <meta name="description" content="Anateck AI Privacy Policy - How we collect, use, and protect your personal information." />
       </Helmet>
 
       <section className="pt-32 pb-20 bg-gray-50">
@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
             <section>
               <h2 className="text-2xl font-bold text-dark-800 mb-4">1. Introduction</h2>
               <p className="text-dark-600 leading-relaxed">
-                Fennec AI ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+                Anateck AI ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
               </p>
             </section>
 
@@ -125,8 +125,8 @@ const PrivacyPolicy = () => {
                 If you have questions about this Privacy Policy, please contact us at:
               </p>
               <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-                <p className="text-dark-700"><strong>Email:</strong> privacy@fennec.ai</p>
-                <p className="text-dark-700"><strong>Address:</strong> Fennec AI, Global Operations</p>
+                <p className="text-dark-700"><strong>Email:</strong> privacy@Anateck.ai</p>
+                <p className="text-dark-700"><strong>Address:</strong> Anateck AI, Global Operations</p>
               </div>
             </section>
           </div>

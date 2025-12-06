@@ -1,4 +1,4 @@
-# 🎉 Fennec AI Website - Complete Professional Project
+# 🎉 Anateck AI Website - Complete Professional Project
 
 ## What You've Received
 
@@ -49,7 +49,7 @@ A **complete, production-ready** AI services website with:
 ## 📁 Project Structure
 
 ```
-fennec-ai-website/
+Anateck-ai-website/
 ├── backend/                 # Node.js/Express API
 │   ├── server.js           # Main server file
 │   ├── package.json        # Dependencies
@@ -302,6 +302,6 @@ Everything is set up and working. Just:
 
 ---
 
-**Built with ❤️ for Fennec AI**
+**Built with ❤️ for Anateck AI**
 
 *Making AI Accessible to Businesses Worldwide*

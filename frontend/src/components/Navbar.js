@@ -48,13 +48,12 @@ const Navbar = () => {
       <div className="section-container">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary-600 to-primary-800 rounded-lg flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
-              <span className="text-white font-bold text-xl">F</span>
-            </div>
-            <span className="text-2xl font-display font-bold gradient-text">
-              Fennec
-            </span>
+          <Link to="/" className="flex h-12 w-48 items-center space-x-2 group">
+          <img 
+  src="/assets/images/black.svg" 
+  alt="Anateck Logo" 
+  className="h-50 w-auto max-w-[150px] object-contain"
+/>
           </Link>
 
           {/* Desktop Navigation */}

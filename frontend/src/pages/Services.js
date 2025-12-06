@@ -115,7 +115,7 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>AI Services - Custom Development, Training & Consulting | Fennec AI</title>
+        <title>AI Services - Custom Development, Training & Consulting | Anateck AI</title>
         <meta name="description" content="Comprehensive AI services including custom development, corporate training, and digital transformation consulting. End-to-end solutions for businesses worldwide." />
       </Helmet>
 

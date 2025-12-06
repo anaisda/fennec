@@ -33,21 +33,21 @@ function App() {
   const [showCookieConsent, setShowCookieConsent] = useState(false);
 
   useEffect(() => {
-    const cookieConsent = Cookies.get('fennec_cookie_consent');
+    const cookieConsent = Cookies.get('Anateck_cookie_consent');
     if (!cookieConsent) {
       setShowCookieConsent(true);
     }
   }, []);
 
   const handleAcceptCookies = () => {
-    Cookies.set('fennec_cookie_consent', 'accepted', { expires: 365 });
+    Cookies.set('Anateck_cookie_consent', 'accepted', { expires: 365 });
     setShowCookieConsent(false);
   };
 
   return (
     <Router>
       <Helmet>
-        <title>Fennec AI - Your Technical AI Partner for Digital Transformation</title>
+        <title>Anateck AI - Your Technical AI Partner for Digital Transformation</title>
         <meta name="description" content="Global AI services company helping businesses implement artificial intelligence solutions. Custom AI development, training programs, and digital transformation consulting." />
         <meta name="keywords" content="AI services, artificial intelligence, AI consulting, AI development, AI training, digital transformation, machine learning" />
       </Helmet>

@@ -28,7 +28,7 @@ const BlogPost = () => {
   return (
     <>
       <Helmet>
-        <title>{post.title} | Fennec AI Blog</title>
+        <title>{post.title} | Anateck AI Blog</title>
       </Helmet>
 
       <article className="pt-32 pb-20">

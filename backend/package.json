@@ -1,7 +1,7 @@
 {
-  "name": "fennec-backend",
+  "name": "Anateck-backend",
   "version": "1.0.0",
-  "description": "Backend for Fennec AI Services",
+  "description": "Backend for Anateck AI Services",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

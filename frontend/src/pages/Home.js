@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
 import { FaRocket, FaGraduationCap, FaChartLine, FaCheckCircle, FaArrowRight, FaBrain, FaCog, FaUsers } from 'react-icons/fa';
 
 const Home = () => {
@@ -29,9 +28,9 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: '30+', label: 'Clients Served' },
-    { number: '50+', label: 'Projects Completed' },
-    { number: '15+', label: 'Industries' },
+    { number: '5+', label: 'Clients Served' },
+    { number: '10+', label: 'Projects Completed' },
+    { number: '5+', label: 'Industries' },
     { number: 'Global', label: 'Reach' }
   ];
 
@@ -55,57 +54,45 @@ const Home = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Fennec AI - Your Technical AI Partner for Digital Transformation</title>
-        <meta name="description" content="Leading AI services company helping businesses implement artificial intelligence solutions worldwide. Custom development, training, and consulting." />
-      </Helmet>
-
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-600 text-white pt-32 pb-20 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-            backgroundSize: '40px 40px'
-          }}></div>
+      <section className="relative text-white pt-32 pb-20 min-h-screen flex items-center overflow-hidden">
+        {/* Full-Screen AI Background Image */}
+        <div className="absolute inset-0 z-0">
+          <div 
+            className="w-full h-full bg-cover bg-center"
+            style={{
+              backgroundImage: `url('/assets/images/pic.webp')`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat'
+            }}
+          ></div>
+          {/* Dark overlay for text readability */}
+          <div className="absolute inset-0 bg-gradient-to-r from-primary-900/95 via-primary-900/80 to-transparent"></div>
         </div>
         
         <div className="section-container relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="animate-fade-in">
-              <div className="inline-block bg-primary-700/50 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-                <span className="text-sm font-semibold">Global AI Solutions Provider</span>
-              </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6 leading-tight">
-                Your Technical AI Partner for{' '}
-                <span className="text-accent-400">Digital Transformation</span>
-              </h1>
-              <p className="text-xl text-primary-100 mb-8 leading-relaxed">
-                We bridge the gap between AI awareness and implementation. From development to deployment, we build practical AI solutions that drive real business results.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/contact" className="btn-accent inline-flex items-center justify-center">
-                  Get Started Today
-                  <FaArrowRight className="ml-2" />
-                </Link>
-                <Link to="/services" className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 inline-flex items-center justify-center">
-                  Explore Services
-                </Link>
-              </div>
+          <div className="max-w-4xl animate-fade-in">
+            <div className="inline-block bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-white/20">
+              <span className="text-sm font-semibold">Global AI Solutions Provider</span>
             </div>
-            
-            <div className="relative animate-float hidden lg:block">
-              <div className="relative w-full h-96 bg-gradient-to-br from-primary-500/30 to-primary-700/30 backdrop-blur-xl rounded-2xl p-8 shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-r from-primary-400/20 to-transparent rounded-2xl"></div>
-                <div className="relative h-full flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-32 h-32 mx-auto mb-6 bg-white/10 backdrop-blur-xl rounded-full flex items-center justify-center">
-                      <FaBrain className="text-6xl text-white" />
-                    </div>
-                    <h3 className="text-2xl font-bold mb-2">AI-Powered</h3>
-                    <p className="text-primary-100">Innovation at Scale</p>
-                  </div>
-                </div>
-              </div>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold mb-6 leading-tight">
+              Your Technical AI Partner for{' '}
+              <span className="text-accent-400 bg-gradient-to-r from-accent-400 to-accent-500 bg-clip-text text-transparent">
+                Digital Transformation
+              </span>
+            </h1>
+            <p className="text-xl md:text-2xl text-gray-200 mb-10 leading-relaxed max-w-3xl">
+              We bridge the gap between AI awareness and implementation. From development to deployment, we build practical AI solutions that drive real business results.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link to="/contact" className="btn-accent inline-flex items-center justify-center shadow-xl hover:shadow-2xl">
+                Get Started Today
+                <FaArrowRight className="ml-2" />
+              </Link>
+              <Link to="/services" className="bg-white/15 backdrop-blur-sm hover:bg-white/25 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 inline-flex items-center justify-center border border-white/20 hover:border-white/40">
+                Explore Services
+              </Link>
             </div>
           </div>
         </div>
@@ -177,7 +164,7 @@ const Home = () => {
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-display font-bold text-dark-800 mb-4">
-              Why Choose Fennec?
+              Why Choose Anateck?
             </h2>
             <p className="text-xl text-dark-600 max-w-3xl mx-auto">
               We combine technical expertise with business acumen to deliver AI solutions that work

@@ -24,7 +24,7 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>AI Insights & Resources | Fennec AI Blog</title>
+        <title>AI Insights & Resources | Anateck AI Blog</title>
       </Helmet>
 
       <section className="bg-gradient-to-br from-primary-900 to-primary-700 text-white pt-32 pb-20">

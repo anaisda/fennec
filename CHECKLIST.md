@@ -1,4 +1,4 @@
-# ✅ Fennec AI Website - Installation Checklist
+# ✅ Anateck AI Website - Installation Checklist
 
 ## Pre-Installation
 
@@ -12,7 +12,7 @@
 ## Installation Steps
 
 ### Step 1: Extract Project
-- [ ] Download the `fennec-ai-website` folder
+- [ ] Download the `Anateck-ai-website` folder
 - [ ] Extract to your preferred location (e.g., `C:\Projects\` or `~/Projects/`)
 - [ ] Open folder in terminal/command prompt
 
@@ -229,7 +229,7 @@
 **Admin login fails**
 - [ ] Verify credentials: admin / Admin@123
 - [ ] Check backend is running
-- [ ] Look for `fennec.db` file in backend folder
+- [ ] Look for `Anateck.db` file in backend folder
 
 **Contact form not working**
 - [ ] Check backend logs for errors
@@ -278,6 +278,6 @@
 
 ---
 
-**Congratulations! Your Fennec AI website is live! 🎉**
+**Congratulations! Your Anateck AI website is live! 🎉**
 
 Now go make an impact with AI services!

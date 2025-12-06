@@ -55,8 +55,8 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us - Get in Touch | Fennec AI</title>
-        <meta name="description" content="Contact Fennec AI for AI services, training, and consulting. Schedule a free consultation to discuss your AI needs." />
+        <title>Contact Us - Get in Touch | Anateck AI</title>
+        <meta name="description" content="Contact Anateck AI for AI services, training, and consulting. Schedule a free consultation to discuss your AI needs." />
       </Helmet>
 
       {/* Hero Section */}
@@ -93,8 +93,8 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <h3 className="font-semibold text-dark-800 mb-1">Email</h3>
-                    <a href="mailto:contact@fennec.ai" className="text-primary-600 hover:text-primary-700">
-                      contact@fennec.ai
+                    <a href="mailto:contact@Anateck.ai" className="text-primary-600 hover:text-primary-700">
+                      contact@Anateck.ai
                     </a>
                   </div>
                 </div>
